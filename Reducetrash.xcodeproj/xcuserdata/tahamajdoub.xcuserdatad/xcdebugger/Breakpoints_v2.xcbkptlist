@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1803D698-7F52-4668-9118-690D0EAB7F0D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60132B61-AA4F-4183-9128-7A7A622F147B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reducetrash/viewModel/ClusterMap.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "60132B61-AA4F-4183-9128-7A7A622F147B - e0fd0cd2a84374d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reducetrash.LocationManager.__allocating_init() -&gt; Reducetrash.LocationManager"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/ClusterMap.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "60132B61-AA4F-4183-9128-7A7A622F147B - cbf8d60fa2f79385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reducetrash.LocationManager.init() -&gt; Reducetrash.LocationManager"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/ClusterMap.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "60132B61-AA4F-4183-9128-7A7A622F147B - 19fa2dbacc2e3d37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reducetrash.LocationManager.__deallocating_deinit"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/ClusterMap.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F97C61A9-7E42-4816-9073-821B3C5D565A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reducetrash/Screens/EventListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2986EC41-8E1E-400B-904A-0B6375196830"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reducetrash/viewModel/RemoteRespostory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchWasteTypeInfo(category:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2986EC41-8E1E-400B-904A-0B6375196830 - e087397ccf06631"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Reducetrash.RemoteRepository.fetchWasteTypeInfo(category: Swift.String) async -&gt; Swift.Result&lt;Reducetrash.WasteType, Reducetrash.ApiError&gt;"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/RemoteRespostory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "2986EC41-8E1E-400B-904A-0B6375196830 - d5638f5502290626"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Reducetrash.RemoteRepository.fetchWasteTypeInfo(category: Swift.String) async -&gt; Swift.Result&lt;Reducetrash.WasteType, Reducetrash.ApiError&gt;"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/RemoteRespostory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "2986EC41-8E1E-400B-904A-0B6375196830 - 26de14d41aa1a233"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Reducetrash.RemoteRepository.fetchWasteTypeInfo(category: Swift.String) async -&gt; Swift.Result&lt;Reducetrash.WasteType, Reducetrash.ApiError&gt;"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/RemoteRespostory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "2986EC41-8E1E-400B-904A-0B6375196830 - 334adab57dba1c32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Reducetrash.RemoteRepository.fetchWasteTypeInfo(category: Swift.String) async -&gt; Swift.Result&lt;Reducetrash.WasteType, Reducetrash.ApiError&gt;"
+                  moduleName = "Reducetrash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tahamajdoub/Applications/Reducetrash/Reducetrash/viewModel/RemoteRespostory.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD5E349C-5CB9-4B4A-B80A-F59BFEC04A60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reducetrash/Screens/ScanView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "createRecyclingWaste()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7E542B29E9D58400EAEBB2 /* reclingwasteviewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E542A29E9D58400EAEBB2 /* reclingwasteviewmodel.swift */; };
+		1D7E542D29EB6F4E00EAEBB2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E542C29EB6F4E00EAEBB2 /* ImagePicker.swift */; };
+		1DE2BCBD29DE6777008C1D43 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1DE2BCBC29DE6777008C1D43 /* Realm */; };
+		1DE2BCBF29DE6777008C1D43 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1DE2BCBE29DE6777008C1D43 /* RealmSwift */; };
+		1DE2BCC229DE67C9008C1D43 /* Cluster in Frameworks */ = {isa = PBXBuildFile; productRef = 1DE2BCC129DE67C9008C1D43 /* Cluster */; };
+		1DE2BCED29E0AC55008C1D43 /* addpaswordviewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB54C4029C8FCC800EBA059 /* addpaswordviewmodel.swift */; };
+		1DE2BCEE29E0ACC4008C1D43 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCC329DE6929008C1D43 /* MapViewModel.swift */; };
+		1DE2BCEF29E0ACCA008C1D43 /* RemoteRespostory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCC729DE69D9008C1D43 /* RemoteRespostory.swift */; };
+		1DE2BCF029E0ACCE008C1D43 /* ClusterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCCB29DE6A62008C1D43 /* ClusterMap.swift */; };
+		1DE2BCF129E0ACD3008C1D43 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCD729E01216008C1D43 /* PhotoViewModel.swift */; };
+		1DE2BCF229E0ACD8008C1D43 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCDD29E014C3008C1D43 /* ImagePickerView.swift */; };
+		1DE2BCF429E0ACE4008C1D43 /* localRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCE629E0A660008C1D43 /* localRepository.swift */; };
+		1DE2BCF529E0ACED008C1D43 /* WasteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCC929DE6A03008C1D43 /* WasteType.swift */; };
+		1DE2BCF629E0ACF2008C1D43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCCD29DE84D6008C1D43 /* User.swift */; };
+		1DE2BCF729E0ACF6008C1D43 /* can.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCD129DFEAA7008C1D43 /* can.swift */; };
+		1DE2BCF829E0ACFD008C1D43 /* UtilizedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCE829E0A67A008C1D43 /* UtilizedItem.swift */; };
+		1DE2BCF929E0AD0A008C1D43 /* utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCE329E0A5A6008C1D43 /* utility.swift */; };
+		1DE2BCFA29E0AD10008C1D43 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23294929A54A04006B0738 /* WelcomeScreenView.swift */; };
+		1DE2BCFB29E0AD14008C1D43 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D82A4F429AABD0000BAB8A1 /* AccountDetailsView.swift */; };
+		1DE2BCFC29E0AD18008C1D43 /* dashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8129C341DA0003EFE3 /* dashboardView.swift */; };
+		1DE2BCFD29E0AD1B008C1D43 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D82A4F229AABCB900BAB8A1 /* AddAccountView.swift */; };
+		1DE2BCFE29E0AD1F008C1D43 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8329C342280003EFE3 /* HomeView.swift */; };
+		1DE2BCFF29E0AD23008C1D43 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8529C342940003EFE3 /* MapView.swift */; };
+		1DE2BD0029E0AD27008C1D43 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8929C3431F0003EFE3 /* AboutView.swift */; };
+		1DE2BD0129E0AD2A008C1D43 /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8729C342EA0003EFE3 /* WithdrawView.swift */; };
+		1DE2BD0229E0AD2E008C1D43 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8D29C343840003EFE3 /* ScanView.swift */; };
+		1DE2BD0329E0AD32008C1D43 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8B29C343470003EFE3 /* ProfileScreen.swift */; };
+		1DE2BD0429E0AD36008C1D43 /* AddPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C9129C343E70003EFE3 /* AddPasswordView.swift */; };
+		1DE2BD0529E0AD3A008C1D43 /* BirthdayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C9329C344130003EFE3 /* BirthdayScreen.swift */; };
+		1DE2BD0629E0AD3D008C1D43 /* WelcomeScreen2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C9929C3448B0003EFE3 /* WelcomeScreen2View.swift */; };
+		1DE2BD0729E0AD41008C1D43 /* VerifyPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C9529C344370003EFE3 /* VerifyPhoneNumberView.swift */; };
+		1DE2BD0829E0AD45008C1D43 /* RecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C8F29C343B70003EFE3 /* RecycleView.swift */; };
+		1DE2BD0929E0AD4A008C1D43 /* HelloScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BCD529E00A16008C1D43 /* HelloScreen.swift */; };
+		1DE2BD0A29E0AD4D008C1D43 /* EnterPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE91C9729C3445C0003EFE3 /* EnterPhoneNumberView.swift */; };
+		1DE2BD0C29E0AD6E008C1D43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D58C07129A539AD00C1E64F /* Preview Assets.xcassets */; };
+		1DE2BD0D29E0AD72008C1D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D58C06E29A539AD00C1E64F /* Assets.xcassets */; };
+		1DE2BD0E29E0AD79008C1D43 /* waste_type_starter.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 1DE2BCE529E0A5FB008C1D43 /* waste_type_starter.geojson */; };
+		1DE2BD0F29E0AD8C008C1D43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58C06C29A539AB00C1E64F /* ContentView.swift */; };
+		1DE2BD1029E0AD98008C1D43 /* ReducetrashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58C06A29A539AB00C1E64F /* ReducetrashApp.swift */; };
+		1DE2BD1329E0ADEF008C1D43 /* Resnet50.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2BD1229E0ADEE008C1D43 /* Resnet50.mlpackage */; };
+		1DE7827C29E4E04F001024B7 /* wasteTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7827B29E4E04F001024B7 /* wasteTypeView.swift */; };
+		1DE7827F29E62E72001024B7 /* eventViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7827E29E62E72001024B7 /* eventViewmodel.swift */; };
+		1DE7828129E630C1001024B7 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7828029E630C1001024B7 /* EventListView.swift */; };
+		1DE7828429E67881001024B7 /* CreateEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7828329E67881001024B7 /* CreateEventViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D23294929A54A04006B0738 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		1D58C06729A539AB00C1E64F /* Reducetrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reducetrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D58C06A29A539AB00C1E64F /* ReducetrashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducetrashApp.swift; sourceTree = "<group>"; };
+		1D58C06C29A539AB00C1E64F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D58C06E29A539AD00C1E64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D58C07129A539AD00C1E64F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D7E542A29E9D58400EAEBB2 /* reclingwasteviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reclingwasteviewmodel.swift; sourceTree = "<group>"; };
+		1D7E542C29EB6F4E00EAEBB2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1D82A4F229AABCB900BAB8A1 /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+		1D82A4F429AABD0000BAB8A1 /* AccountDetailsView.swift */ = {isa = PBXFileReference; indentWidth = 20; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; tabWidth = 20; usesTabs = 0; };
+		1DB54C3F29C8F67D00EBA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1DB54C4029C8FCC800EBA059 /* addpaswordviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addpaswordviewmodel.swift; sourceTree = "<group>"; };
+		1DE2BCC329DE6929008C1D43 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		1DE2BCC729DE69D9008C1D43 /* RemoteRespostory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRespostory.swift; sourceTree = "<group>"; };
+		1DE2BCC929DE6A03008C1D43 /* WasteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteType.swift; sourceTree = "<group>"; };
+		1DE2BCCB29DE6A62008C1D43 /* ClusterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterMap.swift; sourceTree = "<group>"; };
+		1DE2BCCD29DE84D6008C1D43 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1DE2BCCF29DE9588008C1D43 /* NSManagedObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectModel.swift; sourceTree = "<group>"; };
+		1DE2BCD129DFEAA7008C1D43 /* can.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = can.swift; sourceTree = "<group>"; };
+		1DE2BCD529E00A16008C1D43 /* HelloScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloScreen.swift; sourceTree = "<group>"; };
+		1DE2BCD729E01216008C1D43 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoViewModel.swift; path = Reducetrash/viewModel/PhotoViewModel.swift; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		1DE2BCDD29E014C3008C1D43 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		1DE2BCE329E0A5A6008C1D43 /* utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utility.swift; sourceTree = "<group>"; };
+		1DE2BCE529E0A5FB008C1D43 /* waste_type_starter.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = waste_type_starter.geojson; sourceTree = "<group>"; };
+		1DE2BCE629E0A660008C1D43 /* localRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localRepository.swift; sourceTree = "<group>"; };
+		1DE2BCE829E0A67A008C1D43 /* UtilizedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilizedItem.swift; sourceTree = "<group>"; };
+		1DE2BD1229E0ADEE008C1D43 /* Resnet50.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = Resnet50.mlpackage; path = Reducetrash/ML/Resnet50.mlpackage; sourceTree = SOURCE_ROOT; };
+		1DE7827B29E4E04F001024B7 /* wasteTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasteTypeView.swift; sourceTree = "<group>"; };
+		1DE7827D29E52DE4001024B7 /* Reducetrash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reducetrash.entitlements; sourceTree = "<group>"; };
+		1DE7827E29E62E72001024B7 /* eventViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventViewmodel.swift; sourceTree = "<group>"; };
+		1DE7828029E630C1001024B7 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		1DE7828329E67881001024B7 /* CreateEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewModel.swift; sourceTree = "<group>"; };
+		1DE91C8129C341DA0003EFE3 /* dashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardView.swift; sourceTree = "<group>"; };
+		1DE91C8329C342280003EFE3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1DE91C8529C342940003EFE3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1DE91C8729C342EA0003EFE3 /* WithdrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WithdrawView.swift; path = /Users/tahamajdoub/Applications/Reducetrash/Reducetrash/Screens/WithdrawView.swift; sourceTree = "<absolute>"; };
+		1DE91C8929C3431F0003EFE3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		1DE91C8B29C343470003EFE3 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		1DE91C8D29C343840003EFE3 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		1DE91C8F29C343B70003EFE3 /* RecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleView.swift; sourceTree = "<group>"; };
+		1DE91C9129C343E70003EFE3 /* AddPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPasswordView.swift; sourceTree = "<group>"; };
+		1DE91C9329C344130003EFE3 /* BirthdayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayScreen.swift; sourceTree = "<group>"; };
+		1DE91C9529C344370003EFE3 /* VerifyPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		1DE91C9729C3445C0003EFE3 /* EnterPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneNumberView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		1DE91C9929C3448B0003EFE3 /* WelcomeScreen2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen2View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D58C06429A539AB00C1E64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE2BCC229DE67C9008C1D43 /* Cluster in Frameworks */,
+				1DE2BCBF29DE6777008C1D43 /* RealmSwift in Frameworks */,
+				1DE2BCBD29DE6777008C1D43 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D23294829A54997006B0738 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1D23294929A54A04006B0738 /* WelcomeScreenView.swift */,
+				1D82A4F229AABCB900BAB8A1 /* AddAccountView.swift */,
+				1D82A4F429AABD0000BAB8A1 /* AccountDetailsView.swift */,
+				1DE91C8129C341DA0003EFE3 /* dashboardView.swift */,
+				1DE91C8329C342280003EFE3 /* HomeView.swift */,
+				1DE91C8529C342940003EFE3 /* MapView.swift */,
+				1DE91C8729C342EA0003EFE3 /* WithdrawView.swift */,
+				1DE91C8929C3431F0003EFE3 /* AboutView.swift */,
+				1DE91C8B29C343470003EFE3 /* ProfileScreen.swift */,
+				1DE91C8D29C343840003EFE3 /* ScanView.swift */,
+				1DE91C8F29C343B70003EFE3 /* RecycleView.swift */,
+				1DE91C9129C343E70003EFE3 /* AddPasswordView.swift */,
+				1DE91C9329C344130003EFE3 /* BirthdayScreen.swift */,
+				1DE91C9529C344370003EFE3 /* VerifyPhoneNumberView.swift */,
+				1DE91C9729C3445C0003EFE3 /* EnterPhoneNumberView.swift */,
+				1DE91C9929C3448B0003EFE3 /* WelcomeScreen2View.swift */,
+				1DE2BCD529E00A16008C1D43 /* HelloScreen.swift */,
+				1DE7827B29E4E04F001024B7 /* wasteTypeView.swift */,
+				1DE7828029E630C1001024B7 /* EventListView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1D58C05E29A539AA00C1E64F = {
+			isa = PBXGroup;
+			children = (
+				1D58C06929A539AB00C1E64F /* Reducetrash */,
+				1D58C06829A539AB00C1E64F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D58C06829A539AB00C1E64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D58C06729A539AB00C1E64F /* Reducetrash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D58C06929A539AB00C1E64F /* Reducetrash */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7827D29E52DE4001024B7 /* Reducetrash.entitlements */,
+				1DB54C3F29C8F67D00EBA059 /* Info.plist */,
+				1DE91C9C29C347C00003EFE3 /* viewModel */,
+				1DE91C9B29C347B40003EFE3 /* model */,
+				1D23294829A54997006B0738 /* Screens */,
+				1D58C06A29A539AB00C1E64F /* ReducetrashApp.swift */,
+				1D58C06C29A539AB00C1E64F /* ContentView.swift */,
+				1D58C06E29A539AD00C1E64F /* Assets.xcassets */,
+				1D58C07029A539AD00C1E64F /* Preview Content */,
+			);
+			path = Reducetrash;
+			sourceTree = "<group>";
+		};
+		1D58C07029A539AD00C1E64F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D58C07129A539AD00C1E64F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DE91C9B29C347B40003EFE3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1DE2BCC929DE6A03008C1D43 /* WasteType.swift */,
+				1DE2BCCD29DE84D6008C1D43 /* User.swift */,
+				1DE2BCCF29DE9588008C1D43 /* NSManagedObjectModel.swift */,
+				1DE2BCD129DFEAA7008C1D43 /* can.swift */,
+				1DE2BCE329E0A5A6008C1D43 /* utility.swift */,
+				1DE2BCE529E0A5FB008C1D43 /* waste_type_starter.geojson */,
+				1DE2BCE829E0A67A008C1D43 /* UtilizedItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1DE91C9C29C347C00003EFE3 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1DE2BD1229E0ADEE008C1D43 /* Resnet50.mlpackage */,
+				1DB54C4029C8FCC800EBA059 /* addpaswordviewmodel.swift */,
+				1DE2BCC329DE6929008C1D43 /* MapViewModel.swift */,
+				1DE2BCC729DE69D9008C1D43 /* RemoteRespostory.swift */,
+				1DE2BCCB29DE6A62008C1D43 /* ClusterMap.swift */,
+				1DE2BCD729E01216008C1D43 /* PhotoViewModel.swift */,
+				1DE2BCDD29E014C3008C1D43 /* ImagePickerView.swift */,
+				1DE2BCE629E0A660008C1D43 /* localRepository.swift */,
+				1DE7827E29E62E72001024B7 /* eventViewmodel.swift */,
+				1DE7828329E67881001024B7 /* CreateEventViewModel.swift */,
+				1D7E542A29E9D58400EAEBB2 /* reclingwasteviewmodel.swift */,
+				1D7E542C29EB6F4E00EAEBB2 /* ImagePicker.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D58C06629A539AB00C1E64F /* Reducetrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D58C07529A539AD00C1E64F /* Build configuration list for PBXNativeTarget "Reducetrash" */;
+			buildPhases = (
+				1D58C06429A539AB00C1E64F /* Frameworks */,
+				1DE2BCEC29E0AC45008C1D43 /* Sources */,
+				1DE2BD0B29E0AD67008C1D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reducetrash;
+			packageProductDependencies = (
+				1DE2BCBC29DE6777008C1D43 /* Realm */,
+				1DE2BCBE29DE6777008C1D43 /* RealmSwift */,
+				1DE2BCC129DE67C9008C1D43 /* Cluster */,
+			);
+			productName = Reducetrash;
+			productReference = 1D58C06729A539AB00C1E64F /* Reducetrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D58C05F29A539AA00C1E64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1D58C06629A539AB00C1E64F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1D58C06229A539AA00C1E64F /* Build configuration list for PBXProject "Reducetrash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D58C05E29A539AA00C1E64F;
+			packageReferences = (
+				1DE2BCBB29DE6777008C1D43 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				1DE2BCC029DE67C9008C1D43 /* XCRemoteSwiftPackageReference "Cluster" */,
+			);
+			productRefGroup = 1D58C06829A539AB00C1E64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D58C06629A539AB00C1E64F /* Reducetrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE2BD0B29E0AD67008C1D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE2BD0E29E0AD79008C1D43 /* waste_type_starter.geojson in Resources */,
+				1DE2BD0D29E0AD72008C1D43 /* Assets.xcassets in Resources */,
+				1DE2BD0C29E0AD6E008C1D43 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE2BCEC29E0AC45008C1D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE2BD1029E0AD98008C1D43 /* ReducetrashApp.swift in Sources */,
+				1DE2BD0F29E0AD8C008C1D43 /* ContentView.swift in Sources */,
+				1DE2BD0A29E0AD4D008C1D43 /* EnterPhoneNumberView.swift in Sources */,
+				1DE2BD0929E0AD4A008C1D43 /* HelloScreen.swift in Sources */,
+				1DE2BD0829E0AD45008C1D43 /* RecycleView.swift in Sources */,
+				1DE2BD0729E0AD41008C1D43 /* VerifyPhoneNumberView.swift in Sources */,
+				1DE2BD0629E0AD3D008C1D43 /* WelcomeScreen2View.swift in Sources */,
+				1D7E542D29EB6F4E00EAEBB2 /* ImagePicker.swift in Sources */,
+				1DE7827F29E62E72001024B7 /* eventViewmodel.swift in Sources */,
+				1DE2BD0529E0AD3A008C1D43 /* BirthdayScreen.swift in Sources */,
+				1DE2BD0429E0AD36008C1D43 /* AddPasswordView.swift in Sources */,
+				1DE2BD0329E0AD32008C1D43 /* ProfileScreen.swift in Sources */,
+				1DE2BD0229E0AD2E008C1D43 /* ScanView.swift in Sources */,
+				1DE2BD0129E0AD2A008C1D43 /* WithdrawView.swift in Sources */,
+				1DE2BD0029E0AD27008C1D43 /* AboutView.swift in Sources */,
+				1DE2BCFF29E0AD23008C1D43 /* MapView.swift in Sources */,
+				1DE2BCFE29E0AD1F008C1D43 /* HomeView.swift in Sources */,
+				1DE2BCFD29E0AD1B008C1D43 /* AddAccountView.swift in Sources */,
+				1DE2BCFC29E0AD18008C1D43 /* dashboardView.swift in Sources */,
+				1DE2BCFB29E0AD14008C1D43 /* AccountDetailsView.swift in Sources */,
+				1DE7828129E630C1001024B7 /* EventListView.swift in Sources */,
+				1DE2BCFA29E0AD10008C1D43 /* WelcomeScreenView.swift in Sources */,
+				1D7E542B29E9D58400EAEBB2 /* reclingwasteviewmodel.swift in Sources */,
+				1DE7827C29E4E04F001024B7 /* wasteTypeView.swift in Sources */,
+				1DE2BCF929E0AD0A008C1D43 /* utility.swift in Sources */,
+				1DE2BCF829E0ACFD008C1D43 /* UtilizedItem.swift in Sources */,
+				1DE2BCF729E0ACF6008C1D43 /* can.swift in Sources */,
+				1DE2BCF629E0ACF2008C1D43 /* User.swift in Sources */,
+				1DE2BCF529E0ACED008C1D43 /* WasteType.swift in Sources */,
+				1DE2BD1329E0ADEF008C1D43 /* Resnet50.mlpackage in Sources */,
+				1DE2BCF429E0ACE4008C1D43 /* localRepository.swift in Sources */,
+				1DE2BCF229E0ACD8008C1D43 /* ImagePickerView.swift in Sources */,
+				1DE2BCF129E0ACD3008C1D43 /* PhotoViewModel.swift in Sources */,
+				1DE2BCF029E0ACCE008C1D43 /* ClusterMap.swift in Sources */,
+				1DE2BCEF29E0ACCA008C1D43 /* RemoteRespostory.swift in Sources */,
+				1DE7828429E67881001024B7 /* CreateEventViewModel.swift in Sources */,
+				1DE2BCEE29E0ACC4008C1D43 /* MapViewModel.swift in Sources */,
+				1DE2BCED29E0AC55008C1D43 /* addpaswordviewmodel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D58C07329A539AD00C1E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D58C07429A539AD00C1E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D58C07629A539AD00C1E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Reducetrash/Reducetrash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reducetrash/Preview Content\"";
+				DEVELOPMENT_TEAM = JW8Z69M267;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_TEXT_BASED_STUBS = YES;
+				INFOPLIST_FILE = Reducetrash/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = YOUR_LOCATION_DESCRIPTION;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				INLINE_PRIVATE_FRAMEWORKS = YES;
+				LD_NO_PIE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ss.Reducetrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TAPI_ENABLE_PROJECT_HEADERS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D58C07729A539AD00C1E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Reducetrash/Reducetrash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reducetrash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_TEXT_BASED_STUBS = YES;
+				INFOPLIST_FILE = Reducetrash/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = YOUR_LOCATION_DESCRIPTION;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				INLINE_PRIVATE_FRAMEWORKS = YES;
+				LD_NO_PIE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ss.Reducetrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TAPI_ENABLE_PROJECT_HEADERS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D58C06229A539AA00C1E64F /* Build configuration list for PBXProject "Reducetrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D58C07329A539AD00C1E64F /* Debug */,
+				1D58C07429A539AD00C1E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D58C07529A539AD00C1E64F /* Build configuration list for PBXNativeTarget "Reducetrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D58C07629A539AD00C1E64F /* Debug */,
+				1D58C07729A539AD00C1E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DE2BCBB29DE6777008C1D43 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1DE2BCC029DE67C9008C1D43 /* XCRemoteSwiftPackageReference "Cluster" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/efremidze/Cluster";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DE2BCBC29DE6777008C1D43 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DE2BCBB29DE6777008C1D43 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1DE2BCBE29DE6777008C1D43 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DE2BCBB29DE6777008C1D43 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		1DE2BCC129DE67C9008C1D43 /* Cluster */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DE2BCC029DE67C9008C1D43 /* XCRemoteSwiftPackageReference "Cluster" */;
+			productName = Cluster;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1D58C05F29A539AA00C1E64F /* Project object */;
+}

@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "cluster",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/efremidze/Cluster",
+      "state" : {
+        "revision" : "3c70568c779456355895adf354a01e7fe5440ebf",
+        "version" : "3.0.3"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "e56380f05793998dfea0d87a34b68fdba475961c",
+        "version" : "13.9.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c238f838efefed37503c35f49e745c1376bf18d1"
+      }
+    }
+  ],
+  "version" : 2
+}
